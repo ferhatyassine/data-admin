@@ -14,13 +14,13 @@
 - `ENUM` = liste de valeurs autorisees pour un champs
 
 ## commande a utilisees 
-``sql
-CREATE DATABASE bd_scolaire
-CHARACTER SET utf8mb4
-collate utf8mb4_unicode_ci;
+```sql
+    CREATE DATABASE bd_scolaire
+    CHARACTER SET utf8mb4
+    collate utf8mb4_unicode_ci;
 
-use bd_scolaire;
-SHOW TABLES;
-DESCRIBE eleve;
-SELECT * FROM eleves;
+    use bd_scolaire;
+    SHOW TABLES;
+    DESCRIBE eleve;
+    SELECT * FROM eleves;
 ```
