@@ -2,7 +2,8 @@
 -- bd_scolaire : base de donnees d'un conseil scolaire fictif
 -- Fichier a executer en premier dans MySQL Workbench
 -- ==================================================================
-CREATE DATABASE IF NOT EXISTS bd_scolaire;
+drop database if exists bd_scolaire;
+CREATE DATABASE IF NOT EXISTS bd_scolaire
 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 use bd_scolaire;
 
